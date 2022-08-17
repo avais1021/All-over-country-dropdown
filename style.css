@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.support{
+    width: 100%;
+    display: inline-block;
+}
+
+/* --------- */
+
+.one {
+    background-color: black;
+    color: rgb(100, 85, 235);
+    height: 100vh;
+}
+
+.country-names{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+select,button{
+    height: 25px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: white 2px solid;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+ select option{
+    background: black;
+    height: 20px;
+    /* width: 100%; */
+}
+
+.select-par{
+    margin-top: 30px;
+}
+.select-par select{
+    width: 60%;
+    -webkit-appearance: none;
+    padding-left: 10px;
+}
+.select-par button{
+    width: 35%;
+    margin-left: 10px;
+}
+.c-n-name{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+@media screen and (max-width:470.9px){
+    .select-par select {
+        width: 100%;
+    }
+    .select-par button{
+        margin-left: unset;
+        margin-top: 10px;
+    }
+}
