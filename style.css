@@ -18,8 +18,11 @@
 
 .one {
     background-color: black;
-    color: rgb(100, 85, 235);
+    background: url(bg2.jpg) no-repeat center center/cover;
+    color: white;
     height: 100vh;
+    border-radius:50px;
+
 }
 
 .country-names{
