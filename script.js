@@ -266,7 +266,8 @@ for (let i = 0; i < countryList.length; i++) {
 
 function getCountryName() {
     var val = seclectEle.options[seclectEle.selectedIndex].text;
-    cnName.textContent = "Selected Country : " + val;
+    // cnName.textContent = "Selected Country : " + val;
+    cnName.textContent = val;
     cnName.classList.toggle("active");
 }
 

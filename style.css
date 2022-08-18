@@ -61,13 +61,18 @@ select,button{
 }
 .c-n-name{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    transition: 2s linear;
+    text-shadow: 5px 0 0 red;
+    letter-spacing: 4px;
 }
 
 .active{
-    display: block;
+    /* display: block; */
+    opacity: 1;
 }
 
 @media screen and (max-width:470.9px){
